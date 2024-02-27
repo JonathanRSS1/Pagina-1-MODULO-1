@@ -19,7 +19,7 @@ function generarMenuPages(){
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <a class="navbar-brand mt-2 mt-lg-0" href="../index.html">
             <img
               src="https://collegecupca.com/futbol/wp-content/uploads/sites/2/2019/02/logo-ricaldone.png"
               height="15"
@@ -49,38 +49,7 @@ function generarMenuPages(){
           
     
           <!-- Avatar -->
-          <div class="dropdown">
-            <a
-              data-mdb-dropdown-init
-              class="dropdown-toggle d-flex align-items-center hidden-arrow"
-              href="#"
-              id="navbarDropdownMenuAvatar"
-              role="button"
-              aria-expanded="false"
-            >
-              <img
-                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                class="rounded-circle"
-                height="25"
-                alt="Black and White Portrait of a Man"
-                loading="lazy"
-              />
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdownMenuAvatar"
-            >
-              <li>
-                <a class="dropdown-item" href="#">My profile</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Settings</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Logout</a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
         <!-- Right elements -->
       </div>
